@@ -1,4 +1,4 @@
-package com.vikram.lovable.enums;
+package com.vikram.lovable_clone.enums;
 
 public enum ProjectRole {
     EDITOR, VIEWER

@@ -1,6 +1,6 @@
-package com.vikram.lovable.entity;
+package com.vikram.lovable_clone.entity;
 
-import com.vikram.lovable.enums.ProjectRole;
+import com.vikram.lovable_clone.enums.ProjectRole;
 
 import java.time.Instant;
 

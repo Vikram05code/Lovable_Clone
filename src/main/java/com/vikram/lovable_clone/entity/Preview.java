@@ -1,5 +1,5 @@
-package com.vikram.lovable.entity;
-import com.vikram.lovable.enums.PreviewStatus;
+package com.vikram.lovable_clone.entity;
+import com.vikram.lovable_clone.enums.PreviewStatus;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

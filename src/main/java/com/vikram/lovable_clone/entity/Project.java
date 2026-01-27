@@ -1,5 +1,4 @@
-package com.vikram.lovable.entity;
-
+package com.vikram.lovable_clone.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -11,22 +10,18 @@ import java.time.Instant;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ProjectFile {
+public class Project {
 
     Long id;
 
-    Project project;
+    String name;
 
-    String path;
+    User owner;
 
-    String minioObjectKey;
+    Boolean isPublic = false;
 
     Instant createdAt;
-
     Instant updatedAt;
-
-    User createdBy;
-
-    User updatedBy;
+    Instant deletedAt; //soft delete
 
 }

@@ -1,4 +1,4 @@
-package com.vikram.lovable.entity;
+package com.vikram.lovable_clone.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,18 +10,17 @@ import java.time.Instant;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Project {
+public class User {
 
     Long id;
 
+    String email;
+    String passwordHash;
     String name;
 
-    User owner;
-
-    Boolean isPublic = false;
-
+    String avatarUrl;
     Instant createdAt;
     Instant updatedAt;
-    Instant deletedAt; //soft delete
 
+    Instant deletedAt; //soft delete
 }

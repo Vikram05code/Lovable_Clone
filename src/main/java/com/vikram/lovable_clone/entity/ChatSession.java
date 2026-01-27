@@ -1,4 +1,4 @@
-package com.vikram.lovable.entity;
+package com.vikram.lovable_clone.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;

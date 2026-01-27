@@ -1,4 +1,4 @@
-package com.vikram.lovable;
+package com.vikram.lovable_clone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
