@@ -1,4 +1,5 @@
 package com.vikram.lovable_clone.entity;
+
 import com.vikram.lovable_clone.enums.MessageRole;
 import lombok.AccessLevel;
 import lombok.Getter;
