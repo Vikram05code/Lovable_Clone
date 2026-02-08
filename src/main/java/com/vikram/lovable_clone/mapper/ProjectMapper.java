@@ -13,8 +13,9 @@ public interface ProjectMapper {
 
     ProjectResponse toProjectResponse(Project project);
 
-    @Mapping(target = "projectName", source="name")
-    ProjectSummaryResponse toProjectSummaryResponse(List<Project> projects);
+    @Mapping(target = "projectName", source = "name")
+    ProjectSummaryResponse toProjectSummaryResponse(Project project);
 
-    List<ProjectSummaryResponse> toListOfProjectSummaryResponse(Project project);
+    List<ProjectSummaryResponse> toListOfProjectSummaryResponse(List<Project> projects);
+
 }
