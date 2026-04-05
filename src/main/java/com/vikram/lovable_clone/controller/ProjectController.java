@@ -3,7 +3,6 @@ package com.vikram.lovable_clone.controller;
 import com.vikram.lovable_clone.dto.project.ProjectRequest;
 import com.vikram.lovable_clone.dto.project.ProjectResponse;
 import com.vikram.lovable_clone.dto.project.ProjectSummaryResponse;
-import com.vikram.lovable_clone.security.AuthUtil;
 import com.vikram.lovable_clone.service.ProjectService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +25,7 @@ public class ProjectController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<ProjectResponse> getProjectById(@PathVariable Long id) {
+    public ResponseEntity<ProjectSummaryResponse> getProjectById(@PathVariable Long id) {
         return ResponseEntity.ok(projectService.getUserProjectById(id));
     }
 
